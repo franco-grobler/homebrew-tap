@@ -1,25 +1,25 @@
 class CowsayCli < Formula
   desc "A command-line interface for cowsay-rs"
   homepage "https://franco-grobler.github.io/cowsay-rs/"
-  version "0.3.2"
+  version "0.3.9"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.2/cowsay-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "6969ed8185378d1e9e55f9bf99d72e270ad056882d44b012bc6d586793bb4d20"
+      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.9/cowsay-cli-aarch64-apple-darwin.tar.gz"
+      sha256 "609387c6853813088f565cf2bed588df5dac9ae9a7c801e4f8ffd4c05859f7ef"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.2/cowsay-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "ec989399ab62fe4d2ee12996adc7f4eb789473fdbe3124cf7af15a75ab2f56cd"
+      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.9/cowsay-cli-x86_64-apple-darwin.tar.gz"
+      sha256 "1dd2ceb214818e13b54b2cc9983fdaf6601df84580bfa5fb12982b637c66c4e7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.2/cowsay-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "7e3b5aa5d5bb1992dde9b5d7fa2b3165afe817fd5ed66a28783ceefdff3d9ea5"
+      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.9/cowsay-cli-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e8aea2ff14c61af9f7d8f8045ef02334c1b89aaa2fff26825654ee86960d0d97"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.2/cowsay-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "4a95360db647a9c587fb35fc9fdb39a70a6a88d9bc21711293064d04d3d646c2"
+      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.9/cowsay-cli-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "853c26ce4c1ad90107e9beac8f9b062a1e0d1d3660578e789abcd2c504612bec"
     end
   end
   license "UNLICENSE"
