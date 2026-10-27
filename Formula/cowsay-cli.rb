@@ -1,25 +1,25 @@
 class CowsayCli < Formula
-  desc "A command-line interface for cowsay-rs"
+  desc "Command-line interface for cowsay-rs"
   homepage "https://franco-grobler.github.io/cowsay-rs/"
-  version "0.3.9"
+  version "0.3.24"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.9/cowsay-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "609387c6853813088f565cf2bed588df5dac9ae9a7c801e4f8ffd4c05859f7ef"
+      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.24/cowsay-cli-aarch64-apple-darwin.tar.gz"
+      sha256 "58cfec2ed47d7d8cdd0d600c19983a5bd378238423c06a48a8761b14360db29a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.9/cowsay-cli-x86_64-apple-darwin.tar.gz"
-      sha256 "1dd2ceb214818e13b54b2cc9983fdaf6601df84580bfa5fb12982b637c66c4e7"
+      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.24/cowsay-cli-x86_64-apple-darwin.tar.gz"
+      sha256 "63205c65b0af1c381d7b1fbec437f5ab05482e8532c0f644d43067a1994a4f47"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.9/cowsay-cli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e8aea2ff14c61af9f7d8f8045ef02334c1b89aaa2fff26825654ee86960d0d97"
+      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.24/cowsay-cli-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "23f075bca8911e88d33af7ea0e9a1ea00d0ba1666163f4dfcb6779a8fb11df1f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.9/cowsay-cli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "853c26ce4c1ad90107e9beac8f9b062a1e0d1d3660578e789abcd2c504612bec"
+      url "https://github.com/franco-grobler/cowsay-rs/releases/download/v0.3.24/cowsay-cli-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "571acd6a277b1c9c60e5546343d76bc78af28e522a7ed67ffd92a8301e566012"
     end
   end
   license "UNLICENSE"
